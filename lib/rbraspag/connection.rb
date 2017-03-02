@@ -3,7 +3,7 @@ module Braspag
     include Singleton
 
     PRODUCTION_URL = "https://transaction.pagador.com.br"
-    HOMOLOGATION_URL = "https://homologacao.pagador.com.br"
+    HOMOLOGATION_URL = "https://homologacao.pagador.com.br" # could you please update this gem?
     
     PROTECTED_CARD_PRODUCTION_URL = "https://cartaoprotegido.braspag.com.br/Services"
     PROTECTED_CARD_HOMOLOGATION_URL = "https://homologacao.braspag.com.br/services/testenvironment"
